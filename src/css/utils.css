@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Roboto&display=swap");
+
+:root {
+  --font1: "Baloo Bhaijaan 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width1 {
+  max-width: 80vw;
+}
+.max-width2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.my-2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.form-input {
+  font: 16px;
+  padding: 0.2rem 0.25rem;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem;
+  font-family: var(--font1);
+  padding-top: 0.4rem;
+}
+.btn {
+  padding: 0.2rem 0.75rem;
+  padding-top: 0.4rem;
+  font: 16px;
+  font-family: var(--font1);
+  border: 2px solid black;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: brown;
+}
